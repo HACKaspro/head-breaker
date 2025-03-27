@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST["name"])) {
         <div class="card p-4 shadow-lg">
             <h2 class="text-center">Your Entered Name</h2>
             <p class="text-center fs-4 fw-bold"><?= $name; ?></p>
-            <a href="a.html" class="btn btn-secondary w-100">Go Back</a>
+            <a href="index.html" class="btn btn-secondary w-100">Go Back</a>
         </div>
     </div>
 </body>
